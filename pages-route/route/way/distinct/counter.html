@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="../../../../js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../../../js/js-example.js"></script>
+    <link rel="stylesheet" type="text/css"
+          href="../../../../custom-styles/custom-styles-group/blue-waves/sudmitStyle.css">
+    <title></title>
+</head>
+<body>
+<div id="changeColor" class="firsty" style="color: #4169e1;">Регистрация</div>
+<input type="text" size="50">
+<input id="too" type="submit" value="OK">
+
+<form name="one" method="post" action="too">
+    <div class="firsty" onclick="">Написать новое сообщение.</div>
+    <textarea rows="10" cols="50"></textarea>
+
+    <p><input class="first" type="submit" value="Отправить" onclick="count_rabbits()"></p>
+    <input type="text" maxlength="50" onkeyup=";"  id="countable-field">символов:<span id="result">0</span>
+
+</form>
+
+<div>
+    <input type="text" maxlength="10" />
+    <div>
+        <div id="our-color-switcher">fdgdhfdghdgdg</div>
+    </div>
+</div>
+   <div class="form">
+       <p>
+           <span class="w">
+               <textarea class="input"></textarea>
+               <br>
+               <span id="charsleft"></span>&nbsp;знаков осталось.
+           </span>
+       </p>
+   </div>
+
+<div class="form">
+       <p>
+           <span class="w">
+               <textarea class="input" onkeydown='limitText(this,this.form.count,100);' onkeyup='limitText(this,this.form.count,100);'></textarea>
+               <br>
+               <span id="charsleft1"></span>&nbsp;знаков осталось.
+           </span>
+       </p>
+   </div>
+
+символов осталось:<input readonly style='border:0px;' type='text' name='count' size='3' value='1000'/>
+
+ <p>&nbsp;</p>
+<input type="text" id="calculable-field" maxlength="60"/>
+<div id="counter-element-label" style="float: left;">символов осталось: </div>
+<div id="counter-element"></div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+.first {
+    background: navy;
+    color: white;
+}
+.first:hover {
+
+    color: #fff;
+    background: #e24486;
+}
+.firsty:hover {
+ color: #ff0000;
+}
+
+#our-color-switcher {
+   background-color: red;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+
+
+

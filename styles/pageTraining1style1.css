@@ -1,0 +1,51 @@
+
+
+
+body {
+    font-size: 11px;
+    color: #000000;
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #ff0000;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 25px;
+    color: #0000ff;
+}
+
+#header {
+    background: #008000;
+    padding: 10px;
+}
+
+#sidebar {
+    float: left;
+    border: 1px solid #333;
+    width: 100px;
+    padding: 5px;
+    margin: 10px 10px 20px 5px;
+}
+
+#content {
+
+    border: 1px solid #333;
+    width: 550px;
+    padding: 5px;
+    margin: 10px 5px 20px 25%;
+   
+}
+#footer {
+    background: #333;
+    padding: 5px;
+    color: #f5deb3;
+    margin-top: 85px;
+}

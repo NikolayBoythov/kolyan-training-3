@@ -1,0 +1,37 @@
+div {
+    color: #008000;
+    font-size: 50px;
+}
+
+.your {
+    color: #0080c0;
+    font-size: 30px;
+}
+
+#tools {
+    color: #00000f;
+    font-size: 45px;
+}
+#tools a {
+    color: #ff0000;
+}
+
+#toys {
+    color: #0d15f9;
+    font-size: 15px;
+}
+#toys div {
+    color: #0d15f9;
+    font-size: 15px;
+}
+#toys ul {
+    color: #d5c919;
+}
+#toys ul li.toysList {
+    color: #df1b42;
+    font-size: 25px;
+}
+#toys ul li.toysList:hover {
+    color: #df1b42;
+    font-size: 35px;
+}

@@ -1,0 +1,26 @@
+#first {
+    min-width: 250px;
+    min-height: 50px;
+    background-color: #ff0000;
+}
+#second {
+    min-width: 250px;
+    min-height: 50px;
+    background-color: #008000;
+}
+#third {
+    min-width: 250px;
+    min-height: 50px;
+    background-color: #0000ff;
+}
+.action-div {
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    background-color: #f5f5dc;
+    margin: 25px;
+}
+.custom-style {
+    margin: 25px;
+}
